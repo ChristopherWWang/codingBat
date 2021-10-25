@@ -1,0 +1,9 @@
+public boolean makes10(int a, int b) {
+  if (10==a||10==b){
+    return true;
+  }
+  if (10==(a+b)){
+    return true;
+  }
+  return false;
+}
